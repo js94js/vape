@@ -1,0 +1,323 @@
+*{
+	box-sizing:border-box;
+}
+
+body{
+	margin:0;
+	padding:0;
+}
+
+.container{
+	
+	width:100%;
+	background-image:url("../images/Header_Home_Mobile.jpg");
+	 background-position: center top;
+	background-repeat: no-repeat;
+	background-size: 100% auto;	
+}
+
+.section-1{
+	
+	width:100%;
+	
+}
+
+
+
+
+.main-menu-container{
+	width:60%;
+//	display:none;
+}
+.mobile-menu-container{
+	display:inline-flex;
+}
+.logo-container{
+	width:80%;
+	display:flex;
+	align-items:center;
+	padding-top:10px;
+}
+.hamburger {
+    display: none;
+	display:block;
+	cursor:pointer;
+	float:right;
+}
+
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: #FFF;
+}
+
+
+
+
+
+
+.main-menu{
+	color:white;
+	font-family:Arial;
+	
+	
+	display:block;
+}
+
+.main-menu li{
+	list-style-type:none;
+	padding:9px 20px;
+	margin:0;
+	font-size:12px;
+}
+
+.earn-button{
+	background-color:#ff6600;
+	border-radius:10px;
+}
+
+
+
+
+.publish-area{
+	padding-top:800px;
+	padding-bottom:100px;
+	width:100%;
+}
+
+.publish-subtext{
+	padding-top:40px;
+	padding-bottom:10px;
+}
+.publish-subtext p{
+	font-family:"Proxima Nova Regular",sans-serif;
+	color:#818181;
+	font-size:16px;
+	line-height:24px;
+}
+.header{
+	display:flex;
+	height:60px;
+	padding-top:25px;
+}
+
+
+.logo-text{
+	font-family:"Bebas Neue",sans-serif;
+	font-weight:bold;
+	color:white;
+	font-size:22px;
+	transform: scale(1, 1.5);
+  -webkit-transform: scale(1, 1.5); /* Safari and Chrome */
+  -moz-transform: scale(1, 1.5); /* Firefox */
+  -ms-transform: scale(1, 1.5); /* IE 9+ */
+  -o-transform: scale(1, 1.5); /* Opera */
+
+	
+}
+.desktop-email-button{
+	display:none;
+}
+
+
+.publish-maintext	{
+	font-size:42px;
+	font-family:"Bebas Neue",sans-serif;
+	font-weight:bold;
+	color:#07223F;
+	line-height:100%;	
+	transform: scale(1, 1.5);
+  -webkit-transform: scale(1, 1.5); /* Safari and Chrome */
+  -moz-transform: scale(1, 1.5); /* Firefox */
+  -ms-transform: scale(1, 1.5); /* IE 9+ */
+  -o-transform: scale(1, 1.5); /* Opera */
+}
+
+.publish-maintext .email-button{
+	transform: scale(1, 0.75);
+  -webkit-transform: scale(1, 0.66); /* Safari and Chrome */
+  -moz-transform: scale(1, 0.66); /* Firefox */
+  -ms-transform: scale(1, 0.66); /* IE 9+ */
+  -o-transform: scale(1, 0.66); /* Opera */
+}
+
+
+.orange-text{
+	color:#ff6600;
+}
+
+
+.publish-buttons{
+	display:flex;
+	align-items:center;
+	justify-content:space-between;
+	
+}
+
+.publish-buttons>div{
+}
+
+.publish-buttons button{
+	width:100%;
+	padding-top:10px;
+	font-size:16px;
+	padding-bottom:10px;
+	border-radius:10px;
+	width:185px;	
+}
+
+.earn-button{
+	color:white;
+	border-color:#ff6600;
+}
+
+.info-button{
+	background-color:white;
+	margin-left:15px;
+	border-color:#ff6600;
+	color:#ff6600;
+}
+
+.mobile-email-button{
+	float:right; 	
+}
+
+
+.section {
+		padding-left:60px;
+		padding-right:60px;
+	}
+	
+	
+.desktop-email-button-container{
+	display:none;
+}
+
+
+.money-area{
+	display:flex;
+	position:relative;
+	padding-top:75px;
+	padding-bottom:75px;
+	align-items:center;
+	justify-content:space-between;
+}
+.background-text{
+	font-size:48px;
+	font-family:"Bebas Neue",sans-serif;
+	font-weight:bold;
+	color:#07223F;
+	line-height:100%;
+	opacity:0.07;
+	transform: scale(1, 1.5);
+  -webkit-transform: scale(1, 1.5); /* Safari and Chrome */
+  -moz-transform: scale(1, 1.5); /* Firefox */
+  -ms-transform: scale(1, 1.5); /* IE 9+ */
+  -o-transform: scale(1, 1.5); /* Opera */
+}
+.overlay-text-container{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	max-width:100%;
+	width:100%;
+}
+.foreground-text{
+	font-size:16px;
+	opacity:1;
+	font-family:"Bebas Neue",sans-serif;
+	font-weight:bold;
+	color:#07223F;
+	line-height:100%;	
+	transform: scale(1, 1.5);
+  -webkit-transform: scale(1, 1.5); /* Safari and Chrome */
+  -moz-transform: scale(1, 1.5); /* Firefox */
+  -ms-transform: scale(1, 1.5); /* IE 9+ */
+  -o-transform: scale(1, 1.5); /* Opera */
+  position: absolute;
+    z-index:100;
+	
+	
+
+}
+
+.email-button{
+	background:none;
+	border:none;	
+}
+
+.email-button-image{
+	height:50px;
+	width:50px;
+}
+
+
+.main-menu:not(.active){
+	display:none;
+	
+}
+	
+@media only screen and (min-width: 900px) {
+	.main-menu{
+		display:flex;
+		justify-content:space-between;
+	}
+	.hamburger{
+		display:none;
+	}
+	.container{
+		background-image:url("../images/Header_Home_Desktop.jpg");
+
+	}
+	.logo-text{
+		color:#07223f;
+	}
+	.logo-container{
+		width:40%;
+		padding-top:40px;
+	}
+	.main-menu-container{
+		display:block;
+	}
+	.mobile-menu-container{
+		display:none;
+	}
+	
+	.section {
+		padding-left:200px;
+		padding-right:200px;
+	}
+	
+	
+	
+	.publish-area{
+		padding-top:260px;
+		padding-bottom:100px;
+		width:38%;
+	}
+
+		
+	.publish-buttons button{
+		font-size:12px;
+	}
+	.mobile-email-button{
+		display:none;
+	}
+	.desktop-email-button-container{
+		display:block;
+	}
+	.foreground-text{
+		font-size:32px;
+	}
+	.background-text{
+		font-size:90px;
+	}
+
+}
+
+
+
