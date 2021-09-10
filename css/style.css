@@ -24,6 +24,13 @@ body{
 
 
 
+.logo{
+	display:block;
+}
+.logo2{
+	display:none;
+}
+
 
 .main-menu-container{
 	width:60%;
@@ -84,7 +91,7 @@ body{
 
 
 .publish-area{
-	padding-top:800px;
+	padding-top:100vw;
 	padding-bottom:100px;
 	width:100%;
 }
@@ -159,6 +166,7 @@ body{
 }
 
 .publish-buttons>div{
+	width:50%;
 }
 
 .publish-buttons button{
@@ -167,7 +175,7 @@ body{
 	font-size:16px;
 	padding-bottom:10px;
 	border-radius:10px;
-	width:185px;	
+	width:100%;	
 }
 
 .earn-button{
@@ -245,6 +253,8 @@ body{
 
 }
 
+
+
 .email-button{
 	background:none;
 	border:none;	
@@ -260,8 +270,35 @@ body{
 	display:none;
 	
 }
+
+.white-text{
+	color:white!important;
+}
+
+.carousel-image{
+	z-index:1;
+	background-color:#07223f;
+	padding:40px;
+	opacity:0.3;
 	
-@media only screen and (min-width: 900px) {
+	
+	
+	
+}
+.carousel-image:nth-of-type(2){
+	z-index:2;
+	opacity:1;
+	
+}
+
+	
+.carousel-header{
+	display:flex;
+	justify-content:center;
+}
+
+
+@media only screen and (min-width: 992px) {
 	.main-menu{
 		display:flex;
 		justify-content:space-between;
@@ -299,10 +336,16 @@ body{
 		padding-bottom:100px;
 		width:38%;
 	}
-
+	
 		
+	.publish-buttons>div{
+		width:auto;
+	}
+
+
 	.publish-buttons button{
 		font-size:12px;
+		width:185px;
 	}
 	.mobile-email-button{
 		display:none;
@@ -315,6 +358,14 @@ body{
 	}
 	.background-text{
 		font-size:90px;
+	}
+	
+		
+	.logo{
+		display:none;
+	}
+	.logo2{
+		display:block;
 	}
 
 }
